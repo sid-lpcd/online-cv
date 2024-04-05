@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Sidonio Silva CV</title>
-        <meta name="description" content="Experienced Front-End Developer with a background in Electrical and Electronic Engineering from UCL. Proficient in JavaScript, React, and Node.js. Passionate about delivering high-quality projects and fostering collaborative team environments. Explore my portfolio to see my expertise in action."/>
+        <meta 
+            name="description" 
+            content="Experienced Front-End Developer with a background in Electrical and Electronic Engineering from UCL. Proficient in JavaScript, React, and Node.js. Passionate about delivering high-quality projects and fostering collaborative team environments. Explore my portfolio to see my expertise in action. Website created using React framework."
+        />
         <meta name="author" content="Sidonio Silva">
 
         <!-- Open Graph Protocol (for social media)  -->
@@ -18,11 +21,21 @@
         -->
 
         <!-- Icons-->
-        <!--
-            <link rel="icon" href="/favicon.ico">
-            <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-            <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+        
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
+        <link rel="icon" href="%PUBLIC_URL%/favicon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png">
+        
+        <!-- 
+            manifest.json provides metadata used when web app is installed on a user's mobile device
+            or desktop. 
         -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+
+        <script
+            src="https://kit.fontawesome.com/a6f665c914.js"
+            crossorigin="anonymous"
+        ></script>
 
         <!-- Optional Meta Tags (good for SEO)-->
         <meta name="title" content="CV Sidonio Silva 2024"/>
@@ -38,29 +51,10 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
-            <!-- Add your website name or logo here -->
-            <img src="logo.png" alt="">
-        </header>
-        <nav>
-            <!-- Add your website navigation here -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Experience</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-            </ul>
-        </nav>
-        <main>
-            <!-- Add your main content here -->
-            <h1>Heading</h1>
-        </main>
-        <footer>
-            <!-- Add your copyright notices and other footer content here-->
-            <p>Copyright Little Lemon</p>
-        </footer>
-        
-        <!-- Include your JS files here-->
-        <script src="js/script.js"></script>
+        <div id="root"></div>
+
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.in.js"
+        ></script>
     </body>
 </html>
