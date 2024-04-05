@@ -1,7 +1,7 @@
 import {React, Component} from 'react';
 
 
-export default class Experience extends Component{
+export default class Profile extends Component{
     render(){
         return(
             <div>
