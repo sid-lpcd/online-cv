@@ -9,12 +9,11 @@ import Experience from './components/Experience';
 import About from './components/About';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
-import Navbar from './components/Navbar';
 
 function App() {
   return (
     <>
-      <Navbar/>
+      <Home/>
       <div>
         <Routes>
           <Route exact path="/" component={Home} />
