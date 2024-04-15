@@ -9,11 +9,13 @@ import Experience from './components/Experience';
 import About from './components/About';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <Router>
-      <>
+    <>
+      <Navbar/>
+      <div>
         <Routes>
           <Route exact path="/" component={Home} />
           <Route path='/about' component={About} />          
@@ -22,8 +24,8 @@ function App() {
           <Route path='/experience' component={Experience} />
           <Route path='/hobbies' component={Hobbies} />
         </Routes>
-      </>
-    </Router>
+      </div>
+    </>
   );
 }
 
