@@ -36,3 +36,7 @@
 input, textarea {
   color: white;
 }
+
+blocknote{
+  border-left: 2px solid red;
+}

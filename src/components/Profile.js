@@ -22,9 +22,10 @@ export default class Profile extends Component{
                         Follow me
                         <i className='material-icons right'>close</i>
                         <p className='flex-container'>
-                            <i className='fab fa-facebook-f grey-text text-darken-4 social-style'></i>
-                            <i className='fab fa-instagram grey-text text-darken-4 social-style'></i>
-                            <i className='fab fa-linkedin-in grey-text text-darken-4 social-style'></i>
+                            <a href='https://www.facebook.com/miguelsidonio.silva/' target="_blank"><i className='fab fa-facebook-f grey-text text-darken-4 social-style'></i></a>
+                            <a href='https://www.instagram.com/sid_lpcd/' target="_blank"><i className='fab fa-instagram grey-text text-darken-4 social-style'></i></a>
+                            <a href='https://www.linkedin.com/in/sidsilva/' target="_blank"><i className='fab fa-linkedin-in grey-text text-darken-4 social-style'></i></a>
+                            <a href='https://github.com/sid-lpcd' target="_blank"><i class="fab fa-brands fa-github grey-text text-darken-4 social-style"></i></a>
                         </p>
                     </span>
                 </div>
