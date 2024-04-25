@@ -9,19 +9,19 @@ import Experience from './components/Experience';
 import About from './components/About';
 import Education from './components/Education';
 import Hobbies from './components/Hobbies';
+import GeneralTemplate from './components/GeneralTemplate';
 
 function App() {
   return (
     <>
-      <Home/>
       <div>
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path='/about' component={About} />          
-          <Route path='/skills' component={Skills} />
-          <Route path='/education' component={Education} />
-          <Route path='/experience' component={Experience} />
-          <Route path='/hobbies' component={Hobbies} />
+          <Route exact path="/" element={<Home/>} />
+          <Route path='/about' element={<GeneralTemplate data={<About/>} />}  />          
+          <Route path='/skills' element={<GeneralTemplate data={<Skills/>} />} />
+          <Route path='/education' element={<GeneralTemplate data={<Education/>} />} />
+          <Route path='/experience' element={<GeneralTemplate data={<Experience/>} />} />
+          <Route path='/hobbies' element={<GeneralTemplate data={<Hobbies/>} />} />
         </Routes>
       </div>
     </>
