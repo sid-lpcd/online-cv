@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/online-cv/static/css/main.825f7103.css",
-    "main.js": "/online-cv/static/js/main.323f30ad.js",
+    "main.js": "/online-cv/static/js/main.d247a82e.js",
     "static/js/453.cd4fdb94.chunk.js": "/online-cv/static/js/453.cd4fdb94.chunk.js",
     "static/media/CapeTown.png": "/online-cv/static/media/CapeTown.613beba20740e1e89fc0.png",
     "static/media/SoloTravelling.jpg": "/online-cv/static/media/SoloTravelling.daf406ca9efcb0bfdc51.jpg",
@@ -11,11 +11,11 @@
     "static/media/Profile.jpg": "/online-cv/static/media/Profile.96c2c78567848097cf65.jpg",
     "index.html": "/online-cv/index.html",
     "main.825f7103.css.map": "/online-cv/static/css/main.825f7103.css.map",
-    "main.323f30ad.js.map": "/online-cv/static/js/main.323f30ad.js.map",
+    "main.d247a82e.js.map": "/online-cv/static/js/main.d247a82e.js.map",
     "453.cd4fdb94.chunk.js.map": "/online-cv/static/js/453.cd4fdb94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.825f7103.css",
-    "static/js/main.323f30ad.js"
+    "static/js/main.d247a82e.js"
   ]
 }
