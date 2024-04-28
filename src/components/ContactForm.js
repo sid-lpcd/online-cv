@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
@@ -16,7 +16,9 @@ const ContactForm = () => {
     type: '',
   });
   
-  
+  React.useEffect(()=>{console.log(process.env.REACT_APP_SERVICE_ID + " Next " +
+    process.env.REACT_APP_TEMPLATE_ID  + " Next " +
+    process.env.REACT_APP_USER_ID)},[])
   // Shows alert message for form submission feedback
   const toggleAlert = (message, type) => {
     setAlertInfo({ display: true, message, type });
