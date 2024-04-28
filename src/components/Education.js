@@ -5,7 +5,7 @@ export default class Education extends Component{
     render(){
         return(
             <div>
-                <div className='card'>
+                <div className='card' id='education'>
                     <div className='card-content'>
                         <h6><strong>Education</strong></h6>
                         <table className='stripod'>

@@ -5,7 +5,7 @@ export default class Skills extends Component{
     render(){
         return(
             <div>
-                <div className='container'>
+                <div className='container' id='skills'>
                     <div className='card-content'>
                         <h6><strong>Professional Skills</strong></h6>
                     </div>

@@ -6,7 +6,7 @@ export default class About extends Component{
     render(){
         return(
             <div>
-                <div className="card">
+                <div className="card" id='about'>
                     <div className='card-content'>
                         <h6 className='mt bottom'>About me</h6>
                         <p className='grey-text'>Motivated young professional in the tech industry, seeking a driven and collaborative team, fostering a culture of high-quality project delivery.</p>

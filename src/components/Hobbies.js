@@ -36,7 +36,7 @@ export default function Hobbies(){
       
     return(
         <div>
-            <div className='card'>
+            <div className='card' id='hobbies'>
                 <div className='card-content'>
                     <div className='row'>
                         <h6><strong>Hobbies</strong></h6>
