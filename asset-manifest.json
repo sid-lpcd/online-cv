@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/online-cv/static/css/main.825f7103.css",
-    "main.js": "/online-cv/static/js/main.2486e22e.js",
+    "main.css": "/online-cv/static/css/main.a731d147.css",
+    "main.js": "/online-cv/static/js/main.001cd937.js",
     "static/js/453.cd4fdb94.chunk.js": "/online-cv/static/js/453.cd4fdb94.chunk.js",
     "static/media/CapeTown.png": "/online-cv/static/media/CapeTown.613beba20740e1e89fc0.png",
     "static/media/SoloTravelling.jpg": "/online-cv/static/media/SoloTravelling.daf406ca9efcb0bfdc51.jpg",
@@ -10,12 +10,12 @@
     "static/media/VolleyballSocial.jpg": "/online-cv/static/media/VolleyballSocial.6d0aafe55a406b522f72.jpg",
     "static/media/Profile.jpg": "/online-cv/static/media/Profile.b20d3606269e5b7c038c.jpg",
     "index.html": "/online-cv/index.html",
-    "main.825f7103.css.map": "/online-cv/static/css/main.825f7103.css.map",
-    "main.2486e22e.js.map": "/online-cv/static/js/main.2486e22e.js.map",
+    "main.a731d147.css.map": "/online-cv/static/css/main.a731d147.css.map",
+    "main.001cd937.js.map": "/online-cv/static/js/main.001cd937.js.map",
     "453.cd4fdb94.chunk.js.map": "/online-cv/static/js/453.cd4fdb94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.825f7103.css",
-    "static/js/main.2486e22e.js"
+    "static/css/main.a731d147.css",
+    "static/js/main.001cd937.js"
   ]
 }
