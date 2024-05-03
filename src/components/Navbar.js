@@ -2,6 +2,7 @@ import {React, Component} from 'react';
 import {HashLink as Link} from 'react-router-hash-link'
 import M from 'materialize-css/dist/js/materialize.min.js';
 import "materialize-css/dist/css/materialize.min.css";
+import CvPDF from '../files/SidonioSilva_CV_2024.pdf'
 
 class Navbar extends Component{
     componentDidMount() {
@@ -53,6 +54,18 @@ class Navbar extends Component{
                                     <Link to="/skills">
                                         <i className='fas fa-copy'></i> Skills
                                     </Link>
+                                </li>
+                                <li>
+                                    <a href={CvPDF} download="Sidonio Silva CV" target='_blank' className="face-button">
+                                        <div class="face-primary">
+                                            <span class="icon fa fa-cloud"></span>
+                                            <p>Download CV</p>
+                                        </div>
+                                        <div class="face-secondary">
+                                            <span class="icon fa fa-hdd-o"></span>
+                                            Size: 84KB
+                                        </div>
+                                    </a>
                                 </li>
                             </ul>
                         </div>     

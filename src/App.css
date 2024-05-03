@@ -79,6 +79,50 @@ width: 1px;
 width: 100%;
 }
 
+.face-button {
+  height: 45px;
+  margin: 10px 0px;
+  display: inline-block;
+  border: 3px solid #e43;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #e43;
+  overflow: hidden;
+  padding: 0px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  
+  .icon {
+    margin-right: 6px;
+    width: 20px;
+  }
+  
+  .face-primary,
+  .face-secondary {
+    display: block;
+    padding: 0 8%;
+    line-height: 45px;
+    transition: margin .4s;
+    height: 45px;
+  }
+  
+  .face-primary {
+    background-color: #e43;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    p { width: 120px;}
+  }
+  
+  &:hover .face-primary {
+    margin-top: -45px;
+  }
+}
 
 .slider__controls {
 display: flex;
