@@ -55,19 +55,17 @@ class Navbar extends Component{
                                         <i className='fas fa-copy'></i> Skills
                                     </Link>
                                 </li>
-                                <li>
-                                    <a href={CvPDF} download="Sidonio Silva CV" target='_blank' className="face-button">
-                                        <div class="face-primary">
-                                            <span class="icon fa fa-cloud"></span>
-                                            <p>Download CV</p>
-                                        </div>
-                                        <div class="face-secondary">
-                                            <span class="icon fa fa-hdd-o"></span>
-                                            Size: 84KB
-                                        </div>
-                                    </a>
-                                </li>
                             </ul>
+                            <a href={CvPDF} download="Sidonio Silva CV" target='_blank' className="face-button right">
+                                <div class="face-primary">
+                                    <span class="icon fa fa-cloud"></span>
+                                    <p>Download CV</p>
+                                </div>
+                                <div class="face-secondary">
+                                    <span class="icon fa fa-hdd-o"></span>
+                                    Size: 84KB
+                                </div>
+                            </a>
                         </div>     
                     </div> 
                 </nav>

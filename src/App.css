@@ -178,6 +178,52 @@ overflow-y: visible;
   .popup-content{
     width: 90%;
   }
+
+  .face-button {
+    height: 34px;
+    margin: 11px 0px;
+    display: inline-block;
+    border: 3px solid #e43;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    color: #e43;
+    overflow: hidden;
+    padding: 0px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    
+    .icon {
+      margin-right: 6px;
+      width: 20px;
+    }
+    
+    .face-primary,
+    .face-secondary {
+      display: block;
+      padding: 0 8%;
+      line-height: 34px;
+      transition: margin .4s;
+      height: 34px;
+    }
+    
+    .face-primary {
+      background-color: #e43;
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      p { width: 1030px;}
+    }
+    
+    &:hover .face-primary {
+      margin-top: -45px;
+    }
+  }
+  
 }
 
 .slider__wrapper {
