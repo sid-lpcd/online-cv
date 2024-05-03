@@ -4,7 +4,7 @@ import {React, Component} from 'react';
 export default class Skills extends Component{
     render(){
         return(
-            <div>
+            <div className='card'>
                 <div className='container' id='skills'>
                     <div className='card-content'>
                         <h6><strong>Professional Skills</strong></h6>

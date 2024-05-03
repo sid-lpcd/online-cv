@@ -9,15 +9,20 @@ export default class Experience extends Component{
                     <div className='card-content'>
                         <h6><strong>Experience</strong></h6>
                         <div className='row'>
-                            <div className='col s12 m4 l4 xl4'>
-                                <p className='teal year_exp white-text'>
+                            <div className='col s12 m3 l3 xl3'>
+                                <p className='teal year_exp white-text' style={{'padding': '0 5%'}}>
                                     September <strong>2022</strong> - <br></br>March <strong>2023</strong>
                                 </p>
                             </div>
-                            <blocknote className='no-pad col s12 m8 l8 xl8'>
-                                <h6 className='no-pad mt-bottom'>
-                                    <strong>Vice-President of Engineering</strong>
-                                </h6>
+                            <blocknote className='no-pad col s12 m9 l9 xl9'>
+                                <div className='row'>
+                                    <h6 className='no-pad mt-bottom col s12 m9 l9 xl9'>
+                                        <strong>Vice-President of Engineering</strong>
+                                    </h6>
+                                    <h6 className='no-pad mt-bottom col s12 m3 l3 xl3'>
+                                        <strong>Metalchemy</strong>
+                                    </h6>
+                                </div>
                                 <h6 className='no-pad mt-bottom'>
                                     <em style={{textDecorationLine: 'underline'}}>Key Achievements</em>
                                 </h6>
@@ -38,15 +43,20 @@ export default class Experience extends Component{
                             </blocknote>
                         </div>
                         <div className='row'>
-                            <div className='col s12 m4 l4 xl4'>
-                                <p className='teal year_exp white-text'>
+                            <div className='col s12 m3 l3 xl3'>
+                                <p className='teal year_exp white-text' style={{'padding': '0 5%'}}>
                                     September <strong>2021</strong> - <br></br>September <strong>2022</strong>
                                 </p>
                             </div>
-                            <blocknote className='no-pad col s12 m8 l8 xl8'>
-                                <h6 className='no-pad mt-bottom'>
-                                    <strong>Engineering (Associate)</strong>
-                                </h6>
+                            <blocknote className='no-pad col s12 m9 l9 xl9'>
+                                <div className='row'>
+                                    <h6 className='no-pad mt-bottom col s12 m9 l9 xl9'>
+                                        <strong>Engineering (Associate)</strong>
+                                    </h6>
+                                    <h6 className='no-pad mt-bottom col s12 m3 l3 xl3'>
+                                        <strong>Metalchemy</strong>
+                                    </h6>
+                                </div>
                                 <h6 className='no-pad mt-bottom'>
                                     <em style={{textDecorationLine: 'underline'}}>Key Achievements</em>
                                 </h6>
@@ -63,15 +73,20 @@ export default class Experience extends Component{
                             </blocknote>
                         </div>
                         <div className='row'>
-                            <div className='col s12 m4 l4 xl4'>
-                                <p className='teal year_exp white-text'>
+                            <div className='col s12 m3 l3 xl3'>
+                                <p className='teal year_exp white-text' style={{'padding': '0 5%'}}>
                                     November <strong>2020</strong> - <br></br>December <strong>2020</strong>
                                 </p>
                             </div>
-                            <blocknote className='no-pad col s12 m8 l8 xl8'>
-                                <h6 className='no-pad mt-bottom'>
-                                    <strong>Engineering (Internship)</strong>
-                                </h6>
+                            <blocknote className='no-pad col s12 m9 l9 xl9'>
+                                <div className='row'>
+                                    <h6 className='no-pad mt-bottom col s12 m9 l9 xl9'>
+                                        <strong>Engineering (Internship)</strong>
+                                    </h6>
+                                    <h6 className='no-pad mt-bottom col s12 m3 l3 xl3'>
+                                        <strong>Metalchemy</strong>
+                                    </h6>
+                                </div>                                
                                 <h6 className='no-pad mt-bottom'>
                                     <em style={{textDecorationLine: 'underline'}}>Key Achievements</em>
                                 </h6>

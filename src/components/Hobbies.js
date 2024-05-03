@@ -9,7 +9,7 @@ export default function Hobbies(){
     const slideData = [
         {
           index: 0,
-          headline: 'Volunteering Chilcare in Cape Town, South Africa',
+          headline: 'Volunteering Childcare in Cape Town, South Africa',
           src: CapeTown
         },
         {

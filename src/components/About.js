@@ -8,8 +8,14 @@ export default class About extends Component{
             <div>
                 <div className="card" id='about'>
                     <div className='card-content'>
-                        <h6 className='mt bottom'>About me</h6>
-                        <p className='grey-text'>Motivated young professional in the tech industry, seeking a driven and collaborative team, fostering a culture of high-quality project delivery.</p>
+                        <h6 className='mt bottom'>Who am I?</h6>
+                        <p className='grey-text'>
+                            Well, not an easy question to answer. 🤷‍♂️ So, let me share with you my passions. <br></br>
+                            I'm all about crafting immersive and seamless web experiences that captivate and engage users. With expertise in HTML, CSS, and JavaScript, I transform stunning visuals and ideas into interactive elements that bring websites to life. <br></br>
+                            But wait, there's more! I also dabble in the realms of React and Vue.js, leveraging these frameworks to create dynamic and responsive interfaces that leave a lasting impression (starting with this webapp 😉). <br></br>
+                            And guess what? I've got some backend skills up my sleeve too, including Python, Java, C, and mySQL, because why stop at just the front end when you can conquer it all? 💪 <br></br>
+                            However, I'm not the kind of person to just spend the wholetime sat down in front of a computer. If you wish to meet the real me, then let's go to a volleyball court. 🏐 Volleyball isn't just a game to me—it's a passion that fuels my competitive spirit and keeps me active and energized.
+                        </p>
                     </div>
                     <div className='card-action'>
                         <h6>Personal Information</h6>

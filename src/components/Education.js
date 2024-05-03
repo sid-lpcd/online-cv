@@ -19,7 +19,7 @@ export default class Education extends Component{
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Front-End Developement - Meta</td>
+                                    <td>Front-End Development - Meta</td>
                                     <td>Advanced React, Advanced HTML and CSS, Version Control</td>
                                     <td>100%</td>
                                     <td>01/2024 - 05/2024</td>
