@@ -216,11 +216,11 @@ overflow-y: visible;
       display: flex;
       flex-direction: row;
       align-items: center;
-      p { width: 1030px;}
+      p { width: 100px;}
     }
     
     &:hover .face-primary {
-      margin-top: -45px;
+      margin-top: -34px;
     }
   }
   

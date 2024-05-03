@@ -24,6 +24,16 @@ class Navbar extends Component{
                             <Link to="/" data-target="side-nav" className='sidenav-trigger'>
                                 <i className='material-icons'>menu</i>
                             </Link>
+                            <a href={CvPDF} download="Sidonio Silva CV" target='_blank' className="face-button right">
+                                <div class="face-primary">
+                                    <span class="icon fa fa-cloud"></span>
+                                    <p>Download CV</p>
+                                </div>
+                                <div class="face-secondary">
+                                    <span class="icon fa fa-hdd-o"></span>
+                                    Size: 84KB
+                                </div>
+                            </a>
                             <ul className='right hide-on-med-and-down'>
                                 <li>
                                     <Link to="/">
@@ -56,16 +66,7 @@ class Navbar extends Component{
                                     </Link>
                                 </li>
                             </ul>
-                            <a href={CvPDF} download="Sidonio Silva CV" target='_blank' className="face-button right">
-                                <div class="face-primary">
-                                    <span class="icon fa fa-cloud"></span>
-                                    <p>Download CV</p>
-                                </div>
-                                <div class="face-secondary">
-                                    <span class="icon fa fa-hdd-o"></span>
-                                    Size: 84KB
-                                </div>
-                            </a>
+                            
                         </div>     
                     </div> 
                 </nav>
