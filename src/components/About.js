@@ -20,7 +20,7 @@ export default class About extends Component{
                                 </p>
                                 <p>
                                     <strong>Contact:</strong> 
-                                    <Popup trigger={<a> Complete form here.</a>}>
+                                    <Popup trigger={<a> Contact me.</a>}>
                                         <ContactForm />
                                     </Popup>
                                 </p>

@@ -108,6 +108,10 @@ overflow-y: visible;
   .slider__controls{
     bottom: -10%;
   }
+  .container{
+    margin: 0 2% !important;
+    width: 96% !important;
+  }
 }
 
 .slider__wrapper {
