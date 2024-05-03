@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
@@ -16,18 +16,20 @@ const ContactForm = () => {
     type: '',
   });
   
-  React.useEffect(()=>{console.log(process.env.REACT_APP_SERVICE_ID + " Next " +
-    process.env.REACT_APP_TEMPLATE_ID  + " Next " +
-    process.env.REACT_APP_USER_ID)},[])
   // Shows alert message for form submission feedback
   const toggleAlert = (message, type) => {
     setAlertInfo({ display: true, message, type });
-
-    // Hide alert after 5 seconds
-    setTimeout(() => {
-      setAlertInfo({ display: false, message: '', type: '' });
-    }, 5000);
   };
+
+  useEffect(() => {
+    const overlay = document.getElementsByClassName('popup-overlay')[0]
+
+    overlay.addEventListener('click', () =>{addHandleClick(overlay, setAlertInfo({ display: false, message: '', type: '' }))});
+  }, []);
+
+  function addHandleClick(element, action){
+    element.onclick.then(action);
+  }
   
   // Function called on submit that uses emailjs to send email of valid contact form
   const onSubmit = async (data) => {
@@ -71,6 +73,15 @@ const ContactForm = () => {
         <div className='row'>
           <div className='col-12 text-center'>
             <div className='contactForm'>
+              <h3 style={{'margin': '0 0 10px 0', 'text-align': 'center'}}>Reach out!</h3>
+              {alertInfo.display ? (
+                  <div
+                    className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
+                    role='alert'
+                  >
+                    {alertInfo.message}
+                  </div>
+                ) : (
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
@@ -142,31 +153,17 @@ const ContactForm = () => {
                     {errors.message && <span className='errorMessage'>Please enter a message</span>}
                   </div>
                 </div>
-                <button className='submit-btn' type='submit'>
-                  Submit
-                </button>
+                <div>
+                  <button className='submit-btn' type='submit'>
+                    Submit
+                  </button>
+                </div>
               </form>
+              )}
             </div>
           </div>
         </div>
       </div>
-        {alertInfo.display && (
-          <div
-            className={`alert alert-${alertInfo.type} alert-dismissible mt-5`}
-            role='alert'
-          >
-            {alertInfo.message}
-            <button
-              type='button'
-              className='btn-close'
-              data-bs-dismiss='alert'
-              aria-label='Close'
-              onClick={() =>
-                setAlertInfo({ display: false, message: '', type: '' })
-              } // Clear the alert when close button is clicked
-            ></button>
-          </div>
-        )}
     </div>
   );
 };
