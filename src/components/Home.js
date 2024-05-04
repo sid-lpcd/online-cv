@@ -14,7 +14,7 @@ export default class Home extends Component{
             <section>
                 <Background />
                 <Navbar />
-                <div className='container' id='main-content'>
+                <div className='container'>
                     <div className='row'>
                         <div className='col s10 m4 l4'>
                             <Profile />
