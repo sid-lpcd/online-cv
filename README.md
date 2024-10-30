@@ -1,5 +1,7 @@
 # Online CV
 
+🌐 **[Live Preview](https://sid-lpcd.github.io/online-cv/)**
+
 Welcome to the **Online CV** project! This repository showcases a modern, interactive online CV designed to highlight skills, experience, and personal projects in a sleek digital portfolio. Whether for showcasing skills to potential employers or creating a personal webpage, this online CV layout offers a professional and responsive solution.
 
 ## ✨ Features
